@@ -1,0 +1,24 @@
+Project name: EdiText
+
+Port: 6666
+
+*Java server
+	-Server side login verification
+	-Client can be told to fuck off from server side/by admin
+	-Clients accounts have to be approved on the server PC
+	-Every clients gets his/her own editalbe text blob
+	-Ability to manually add account 
+		>Account is automatically approved
+		>This is the only way to create an admin account
+	-Ability to ban accounts until date x 
+		>Login script checks if ban is true, if ban is true for the user, it tells the person to fuck off
+
+*Android client
+	-Ability to register
+	-Ability to create account
+	-Login in field on Main Activity
+	-On login
+		>Ability to edit text blob
+		>if the user has admin status, ability to do admin stuff
+	-More functionality will be added later
+		>(Instant)Messaging between clients?
